@@ -141,10 +141,14 @@ font-family: 'Georgia', Times, serif;
 
 
 .manwalking{
-  float:left;
-  height:200px;
-  padding:10px;
-}
+  position: relative;
+  height: 80px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  
+}q
 
 
   .primaryfooter {
@@ -157,37 +161,58 @@ font-family: 'Georgia', Times, serif;
   }
 
 
-  .manwalking:nth-of-type(3){
+  /* .manwalking:nth-of-type(3){
     visibility:hidden
-  }
+  } */
 
   .sombre{
-    position: relative;
-    text-align: center;
-    color:#4aaaa5;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
+   
   }
 
   .river{
-    position: relative;
-    text-align: center;
-    color:#4aaaa5;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
   }
 
   rocky{
-    position: relative;
-    text-align: center;
-    color:#4aaaa5;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
   }
   fall{
-    position: relative;
-    text-align: center;
-    color:#4aaaa5;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
   }
 
   road{
-    position: relative;
-    text-align: center;
-    color:#4aaaa5;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: cente
+  
   }
 
  
