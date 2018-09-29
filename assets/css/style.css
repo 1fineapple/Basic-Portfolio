@@ -13,9 +13,11 @@
 
   }
 
+  
+
 .rightnav {
 float:right;
-margin-right: 200px;
+margin-right: 100px;
 font-family: 'Georgia', Times, serif;
 
   }
@@ -29,7 +31,7 @@ font-family: 'Georgia', Times, serif;
     height: 70px;
     margin-left: 60px;
     float: left;
-    
+  
   
   }
 
@@ -148,7 +150,7 @@ font-family: 'Georgia', Times, serif;
   text-align: center;
 
   
-}q
+}
 
 
   .primaryfooter {
@@ -214,5 +216,128 @@ font-family: 'Georgia', Times, serif;
     text-align: cente
   
   }
+
+  @media screen and (max-width: 980px) {
+    
+
+ header {
+  width: 600px;
+ }
+
+    body {
+      background-color: #333;
+    }
+  
+      .wrapper {
+      width: 600px;
+    }
+        .bio {
+        width: 580px;
+    }
+          .aboutme {
+          width: 560px;
+          float: none;
+        width: 100%;
+        
+    }
+            .extrawrap{
+            width: 540px;
+            }
+
+              .profilebox{
+                width:530px;
+                padding:10px;
+              }
+                  .linkedin{
+                    width:300px;
+                    float: none;
+                    width: 100%;
+                    
+                  }
+
+                    .manwalking{
+                      width: 530px;
+              }
+            
+    
+  }
+
+  @media screen and (max-width: 768px) {
+   
+    body {
+      background-color: rgb(243, 33, 33);
+    } 
+  
+    .wrapper {
+      width: 500px;
+    }
+        .bio {
+        width: 480px;
+        
+    }
+          .aboutme {
+          width: 460px;
+          
+          
+    }
+            .extrawrap{
+            width: 440px;
+            }
+
+            .profilebox{
+              width:530px;
+              padding:10px;
+            }
+
+            .linkedin{
+              width:30%;
+              float: none;
+              width: 100%;
+            }
+              .manwalking{
+                width: 430px;
+              }
+      
+  }
+
+  @media screen and (max-width: 640px) {
+   
+    body {
+      background-color: rgb(5, 212, 67);
+    }
+  
+    .wrapper {
+      width: 400px;
+      padding:50px;
+    }
+        .bio {
+        width: 380px;
+    }
+          .aboutme {
+          width: 360px;
+          
+          
+    }
+            .extrawrap{
+            width: 340px;
+            }
+
+            .profilebox{
+              width:530px;
+              padding:10px;
+            }
+             .linkedin{
+              width:150px;
+              float: none;
+              width: 100%;
+              
+            }
+              .manwalking{
+                width: 330px;
+              }
+  }
+  
+  
+  
 
  
