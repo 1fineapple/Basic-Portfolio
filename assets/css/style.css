@@ -223,13 +223,13 @@ font-family: 'Georgia', Times, serif;
  header {
   width: 600px;
  }
-
-    body {
-      background-color: #333;
-    }
   
       .wrapper {
       width: 600px;
+    }
+
+    .jessa{
+      float: none;
     }
         .bio {
         width: 580px;
@@ -264,9 +264,13 @@ font-family: 'Georgia', Times, serif;
 
   @media screen and (max-width: 768px) {
    
-    body {
-      background-color: rgb(243, 33, 33);
-    } 
+    header {
+      width: 600px;
+     }
+      
+          .wrapper {
+          width: 600px;
+        }
   
     .wrapper {
       width: 500px;
@@ -302,9 +306,13 @@ font-family: 'Georgia', Times, serif;
 
   @media screen and (max-width: 640px) {
    
-    body {
-      background-color: rgb(5, 212, 67);
-    }
+    header {
+      width: 500px;
+     }
+      
+          .wrapper {
+          width: 600px;
+        }
   
     .wrapper {
       width: 400px;
