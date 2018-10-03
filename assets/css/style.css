@@ -150,7 +150,7 @@ font-family: 'Georgia', Times, serif;
   text-align: center;
 
   
-}q
+}
 
 
   .primaryfooter {
@@ -216,5 +216,136 @@ font-family: 'Georgia', Times, serif;
     text-align: cente
   
   }
+
+  @media screen and (max-width: 980px) {
+    
+
+ header {
+  width: 600px;
+ }
+  
+      .wrapper {
+      width: 600px;
+    }
+
+    .jessa{
+      float: none;
+    }
+        .bio {
+        width: 580px;
+    }
+          .aboutme {
+          width: 560px;
+          float: none;
+        width: 100%;
+        
+    }
+            .extrawrap{
+            width: 540px;
+            }
+
+              .profilebox{
+                width:530px;
+                padding:10px;
+              }
+                  .linkedin{
+                    width:300px;
+                    float: none;
+                    width: 100%;
+                    
+                  }
+
+                    .manwalking{
+                      width: 530px;
+              }
+            
+    
+  }
+
+  @media screen and (max-width: 768px) {
+   
+    header {
+      width: 600px;
+     }
+      
+          .wrapper {
+          width: 600px;
+        }
+  
+    .wrapper {
+      width: 500px;
+    }
+        .bio {
+        width: 480px;
+        
+    }
+          .aboutme {
+          width: 450px;
+          
+          
+    }
+            .extrawrap{
+            width: 440px;
+            }
+
+            .profilebox{
+              width:530px;
+              padding:10px;
+            }
+
+            .linkedin{
+              width:30%;
+              float: none;
+              width: 100%;
+            }
+              .manwalking{
+                width: 430px;
+              }
+      
+  }
+
+  @media screen and (max-width: 640px) {
+   
+    header {
+      width: 500px;
+     }
+      
+          .wrapper {
+          width: 600px;
+        }
+  
+    .wrapper {
+      width: 400px;
+      padding:50px;
+    }
+        .bio {
+        width: 380px;
+    }
+          .aboutme {
+          width: 360px;
+          
+          
+    }
+            .extrawrap{
+            width: 340px;
+            }
+
+            .profilebox{
+              width:530px;
+              padding:10px;
+            }
+             .linkedin{
+              width:150px;
+              float: none;
+              width: 100%;
+              
+            }
+              .manwalking{
+                width: 330px;
+              }
+  }
+  
+  
+  
 
  
